@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://cjyu9211.github.io/post/migrate-from-jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://cjyu9211.github.io/post/intro/</loc>
     <lastmod>2018-04-22T12:00:33+09:00</lastmod>
   </url>
@@ -34,7 +29,7 @@
   
   <url>
     <loc>https://cjyu9211.github.io/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-22T12:00:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -58,7 +53,7 @@
   
   <url>
     <loc>https://cjyu9211.github.io/post/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-22T12:00:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   

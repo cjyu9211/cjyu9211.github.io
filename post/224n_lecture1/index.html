@@ -275,7 +275,7 @@
 <h4 id="what-is-natural-language-processing-nlp">What is Natural Language Processing (NLP)?</h4>
 
 <ul>
-<li>NLP는 1) 전산과학, 2) 인공지능, 3) 언어학이 교차하는 부분의 학문이다.</li>
+<li>NLP는 1) 전산학, 2) 인공지능, 3) 언어학이 교차하는 부분의 학문이다.</li>
 <li>NLP는 컴퓨터로 하여금 자연어를 이해하고 처리하는 능력을 배양하는 기술이다. 최근 적용된 사례로는 Apple의 Siri, Google의 Google Assistant, Facebook의 Facebook M을 예로 들 수 있다.</li>
 </ul>
 
@@ -287,8 +287,6 @@
   <img class="pure-img" src="../img_src/nlp_level.png" alt="test">
 </div>
 </p>
-
-<p><img src="../img_src/nlp_level.png" alt="nlp_levels" />{: width=&ldquo;100%&rdquo; height=&ldquo;100%&rdquo;}</p>
 
 <ul>
 <li>자연어의 input은 크게 음성과 텍스트 두 가지로 나뉜다. 각각의 input은 음성학/음운론 분석, 그리고 OCR/토큰화 작업을 거친다.</li>
@@ -317,11 +315,31 @@
 
 <h4 id="representations-of-nlp-levels-morphology">Representations of NLP Levels: Morphology</h4>
 
-<p>NLP에서는 단어(words)의 형태론을 표현하는 방법 중 하나로 vector를 활용한다. 전통적으로는 형태소(morphemes)로 표현했는데, (e.g. prefix, stem, suffix&hellip;) DL에서는 모든 형태소를 vector로 표현하고 words를 각 형태소 vector를 합치는 식으로 표현한다.</p>
+<p>DL에서는 단어(words)의 형태론을 표현하는 방법 중 하나로 vector를 활용한다. 전통적으로는 형태소(morphemes)로 표현했는데, (e.g. prefix, stem, suffix&hellip;) 여기서는 각 형태소를 vector로 표현하고 words를 각 형태소 vector의 linear combination으로 표현한다.</p>
 
-<p><img src="../img_src/morpheme_vec.png" alt="morpheme_vec" />{: width=&ldquo;100%&rdquo; height=&ldquo;100%&rdquo;}</p>
 
-<p>vector representation은 이후 강의에서 보다 자세하게 다룰 예정이다.</p>
+<div class="pure-u-1-1">
+  <img class="pure-img" src="../img_src/morpheme_vec.png" alt="morpheme_vec">
+</div>
+
+
+<p>####Representations of NLP Levels: Semantics</p>
+
+<p>DL에서는 Semantics 또한 vector representation을 활용한다. 모든 단어, 구, 그리고 각 요소 간 논리적 관계 또한 vector로 표현된다. 전통적인 NLP 방식에서는 Lambda calculus 방식이 적용되었는데 이 함수는 human-designed 된 함수이다.</p>
+
+<pre><code>
+<div class="pure-u-1-2">
+  <img class="pure-img" src="../img_src/trad_sem.png" alt="traditional semantic rep.">
+</div>
+
+</code></pre>
+
+<pre><code>
+<div class="pure-u-1-2">
+  <img class="pure-img" src="../img_src/dl_sem.png" alt="dl semantic rep.">
+</div>
+
+</code></pre>
 
 <p><a href="https://www.youtube.com/watch?v=OQQ-W_63UgQ&amp;list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6&amp;index=1">강의 영상 원본</a> - Stanford CS 224n <strong>Lecture 1</strong></p>
 

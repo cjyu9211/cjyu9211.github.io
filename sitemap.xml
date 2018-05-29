@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://cjyu9211.github.io/post/224n_lecture1/</loc>
+    <lastmod>2018-05-28T12:00:33+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cjyu9211.github.io/post/intro/</loc>
     <lastmod>2018-04-22T12:00:33+09:00</lastmod>
   </url>
@@ -19,17 +24,19 @@
   
   <url>
     <loc>https://cjyu9211.github.io/</loc>
-    <lastmod>2018-04-22T12:00:33+09:00</lastmod>
+    <lastmod>2018-05-28T12:00:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://cjyu9211.github.io/tags/cs-224n/</loc>
+    <lastmod>2018-05-28T12:00:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://cjyu9211.github.io/tags/data-science/</loc>
+    <lastmod>2018-05-28T12:00:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -40,33 +47,32 @@
   </url>
   
   <url>
-    <loc>https://cjyu9211.github.io/post/224n_lecture1/</loc>
-  </url>
-  
-  <url>
     <loc>https://cjyu9211.github.io/tags/nlp/</loc>
+    <lastmod>2018-05-28T12:00:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://cjyu9211.github.io/topics/nlp-with-deep-learning/</loc>
+    <lastmod>2018-05-28T12:00:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://cjyu9211.github.io/post/</loc>
-    <lastmod>2018-04-22T12:00:33+09:00</lastmod>
+    <lastmod>2018-05-28T12:00:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://cjyu9211.github.io/tags/</loc>
-    <lastmod>2018-04-22T12:00:33+09:00</lastmod>
+    <lastmod>2018-05-28T12:00:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://cjyu9211.github.io/topics/</loc>
+    <lastmod>2018-05-28T12:00:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   

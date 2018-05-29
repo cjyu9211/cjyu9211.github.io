@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 22 Apr 2018 12:00:33 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 28 May 2018 12:00:33 +0900</lastBuildDate>
     
 	<atom:link href="https://cjyu9211.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Lecture 1: NLP with DL</title>
+      <link>https://cjyu9211.github.io/post/224n_lecture1/</link>
+      <pubDate>Mon, 28 May 2018 12:00:33 +0900</pubDate>
+      
+      <guid>https://cjyu9211.github.io/post/224n_lecture1/</guid>
+      <description>Lecture 1: NLP with DL 본 카테고리는 Stanford University School of Engineering 에서 공개한 내용인 CS224n- NLP with Deep Learning 강의를 개인 공부하고 요약한 내용이다. 원본은 본문 최하단의 링크를 참조하면 된다.
+What is Natural Language Processing (NLP)?  NLP는 1) 전산과학, 2) 인공지능, 3) 언어학이 교차하는 부분의 학문이다. NLP는 컴퓨터로 하여금 자연어를 이해하고 처리하는 능력을 배양하는 기술이다. 최근 적용된 사례로는 Apple의 Siri, Google의 Google Assistant, Facebook의 Facebook M을 예로 들 수 있다.</description>
+    </item>
     
     <item>
       <title>Intro</title>
@@ -40,16 +50,6 @@ He worked for about 2.5 years as an RF engineer at SOLiD Technology, inc, and as
       
       <guid>https://cjyu9211.github.io/contact/</guid>
       <description> First Name  Last Name  E-Mail  City  State AL CA IL      Send   </description>
-    </item>
-    
-    <item>
-      <title>Lecture 1: NLP with DL</title>
-      <link>https://cjyu9211.github.io/post/224n_lecture1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://cjyu9211.github.io/post/224n_lecture1/</guid>
-      <description>Lecture 1: NLP with DL 본 카테고리는 Stanford University School of Engineering 에서 공개한 내용인 CS224n- NLP with Deep Learning 강의를 개인 공부하고 요약한 내용이다. 원본은 본문 최하단의 링크를 참조하면 된다.
-What is Natural Language Processing (NLP)?  NLP는 1) 전산과학, 2) 인공지능, 3) 언어학이 교차하는 부분의 학문이다. NLP는 컴퓨터로 하여금 자연어를 이해하고 처리하는 능력을 배양하는 기술이다. 최근 적용된 사례로는 Apple의 Siri, Google의 Google Assistant, Facebook의 Facebook M을 예로 들 수 있다.</description>
     </item>
     
   </channel>

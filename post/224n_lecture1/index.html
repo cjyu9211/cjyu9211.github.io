@@ -282,11 +282,7 @@
 <h4 id="nlp-levels">NLP Levels</h4>
 
 <p>일반적으로, NLP level은 다음과 같이 정의 된다.
-
-<div class="pure-u-1-1">
-  <img class="pure-img" src="../img_src/nlp_level.png" alt="test">
-</div>
-</p>
+{{% fluid_img class=&ldquo;pure-u-1-1&rdquo; src=&ldquo;../img_src/nlp_level.png&rdquo; alt=&ldquo;test&rdquo; %}}</p>
 
 <ul>
 <li>자연어의 input은 크게 음성과 텍스트 두 가지로 나뉜다. 각각의 input은 음성학/음운론 분석, 그리고 OCR/토큰화 작업을 거친다.</li>
@@ -317,29 +313,13 @@
 
 <p>DL에서는 단어(words)의 형태론을 표현하는 방법 중 하나로 vector를 활용한다. 전통적으로는 형태소(morphemes)로 표현했는데, (e.g. prefix, stem, suffix&hellip;) 여기서는 각 형태소를 vector로 표현하고 words를 각 형태소 vector의 linear combination으로 표현한다.</p>
 
+<p>{{% fluid_img class=&ldquo;pure-u-1-1&rdquo; src=&ldquo;../img_src/morpheme_vec.png&rdquo; alt=&ldquo;morpheme_vec&rdquo; %}}</p>
 
-<div class="pure-u-1-1">
-  <img class="pure-img" src="../img_src/morpheme_vec.png" alt="morpheme_vec">
-</div>
-
-
-<p>####Representations of NLP Levels: Semantics</p>
+<h4 id="representations-of-nlp-levels-semantics">Representations of NLP Levels: Semantics</h4>
 
 <p>DL에서는 Semantics 또한 vector representation을 활용한다. 모든 단어, 구, 그리고 각 요소 간 논리적 관계 또한 vector로 표현된다. 전통적인 NLP 방식에서는 Lambda calculus 방식이 적용되었는데 이 함수는 human-designed 된 함수이다.</p>
 
-<pre><code>
-<div class="pure-u-1-2">
-  <img class="pure-img" src="../img_src/trad_sem.png" alt="traditional semantic rep.">
-</div>
-
-</code></pre>
-
-<pre><code>
-<div class="pure-u-1-2">
-  <img class="pure-img" src="../img_src/dl_sem.png" alt="dl semantic rep.">
-</div>
-
-</code></pre>
+<p>{{% fluid_img class=&ldquo;pure-u-1-2&rdquo; src=&ldquo;../img_src/trad_sem.png&rdquo; alt=&ldquo;traditional semantic rep.&rdquo; %}{% fluid_img class=&ldquo;pure-u-1-2&rdquo; src=&ldquo;../img_src/dl_sem.png&rdquo; alt=&ldquo;dl semantic rep.&rdquo; %}}</p>
 
 <p><a href="https://www.youtube.com/watch?v=OQQ-W_63UgQ&amp;list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6&amp;index=1">강의 영상 원본</a> - Stanford CS 224n <strong>Lecture 1</strong></p>
 

@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="generator" content="Hugo 0.39" />
 
-  <title>Chan&#39;s blog</title>
+  <title>Lecture 1: NLP with DL &middot; Chan&#39;s blog</title>
 
   
   
@@ -39,8 +39,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
  
-  
-  <link rel="alternate" type="application/rss+xml" title="Chan&#39;s blog" href="https://cjyu9211.github.io/index.xml" />
   
 
   
@@ -117,10 +115,6 @@
   <div class="pure-menu social">
   <ul class="pure-menu-list">
 
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://cjyu9211.github.io/index.xml"><i class="fa fa-rss fa-fw"></i>RSS</a>
-    </li>
     
 
     
@@ -228,17 +222,12 @@
 
 
 <div class="header">
-  <h1>Chan&#39;s blog</h1>
-  <h2>Management consultant studying software engineering</h2>
+  <h1>Lecture 1: NLP with DL</h1>
+  <h2></h2>
 </div>
-
 <div class="content">
-  
-    <article>
-  <header>
-    <h2><a href="https://cjyu9211.github.io/post/224n_lecture1/">Lecture 1: NLP with DL</a></h2>
 
-    <div class="post-meta">
+  <div class="post-meta">
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
@@ -277,68 +266,89 @@
 
 </div>
 
-  </header>
-
-  <p>
-  Lecture 1: NLP with DL 본 카테고리는 Stanford University School of Engineering 에서 공개한 내용인 CS224n- NLP with Deep Learning 강의를 개인 공부하고 요약한 내용이다. 원본은 본문 최하단의 링크를 참조하면 된다.
-What is Natural Language Processing (NLP)?  NLP는 1) 전산과학, 2) 인공지능, 3) 언어학이 교차하는 부분의 학문이다. NLP는 컴퓨터로 하여금 자연어를 이해하고 처리하는 능력을 배양하는 기술이다. 최근 적용된 사례로는 Apple의 Siri, Google의 Google Assistant, Facebook의 Facebook M을 예로 들 수 있다.
-  </p>
-
-  
-  <footer>
-    <a href="https://cjyu9211.github.io/post/224n_lecture1/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
-
-  
-    <article>
-  <header>
-    <h2><a href="https://cjyu9211.github.io/post/intro/">Intro</a></h2>
-
-    <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>22 Apr 2018, 12:00</time>
-  </div>
-
   
 
-  
+<h1 id="lecture-1-nlp-with-dl">Lecture 1: NLP with DL</h1>
+
+<p>본 카테고리는 Stanford University School of Engineering 에서 공개한 내용인 CS224n- NLP with Deep Learning 강의를 개인 공부하고 요약한 내용이다. 원본은 본문 최하단의 링크를 참조하면 된다.</p>
+
+<h4 id="what-is-natural-language-processing-nlp">What is Natural Language Processing (NLP)?</h4>
+
+<ul>
+<li>NLP는 1) 전산과학, 2) 인공지능, 3) 언어학이 교차하는 부분의 학문이다.</li>
+<li>NLP는 컴퓨터로 하여금 자연어를 이해하고 처리하는 능력을 배양하는 기술이다. 최근 적용된 사례로는 Apple의 Siri, Google의 Google Assistant, Facebook의 Facebook M을 예로 들 수 있다.</li>
+</ul>
+
+<h4 id="nlp-levels">NLP Levels</h4>
+
+<p>일반적으로, NLP level은 다음과 같이 정의 된다.</p>
+
+<p><img src="https://cjyu9211.github.io/Users/macbookpro/Desktop/blog/draft/img_src/nlp_level.png" alt="nlp_levels" /></p>
+
+<ul>
+<li>자연어의 input은 크게 음성과 텍스트 두 가지로 나뉜다. 각각의 input은 음성학/음운론 분석, 그리고 OCR/토큰화 작업을 거친다.</li>
+<li>이후에는 두 input에 대해 같은 단계를 거친다. 첫 번째는 &lsquo;<strong>Morphological analysis</strong>&lsquo;이다. 이는 형태소 분석을 의미하는데 뜻을 지닌 가장 작은 말의 단위로 쪼개는 분석이다.</li>
+<li>&lsquo;<strong>Syntactic analysis</strong>&lsquo;: 그 다음은 문장의 구조를 이해하는 syntactic analysis이다. 주어, 동사, 목적어 등을 구분하는 작업이다.</li>
+<li>&lsquo;<strong>Semantic Interpretation</strong>&lsquo;: 문장의 정확한 의미, 즉 문맥적 의미를 파악하는 것이다.</li>
+<li>본 강의에서는 특히 speech input과 {Syntactic analysis, Semantic Interpretation}을 주로 다룬다.</li>
+</ul>
+
+<h4 id="what-s-deep-learning-dl">What&rsquo;s Deep Learning (DL)?</h4>
+
+<p>Deep Learning(DL)은 Machine Learning(ML)의 한 분야로 볼 수 있다. 다만, 기존의 logistic regression, naive bayes, decision tree, SVM으로 대표되는 전통적인 ML과는 큰 차이가 있다. 이러한 기존의 ML 알고리즘들은 대부분이 human-designed representation과 input features를 설계하고 이를 numerically 최적화하는 데 많은 시간을 할애한 반면, DL 알고리즘은 이러한 representation이나 최적의 결과를 위한 최적의 feature를 알고리즘이 직접 학습한다.</p>
+
+<p>예시로, 2015년 이전까지의 Google 검색 엔지니어들은 검색어(input signal)가 회사 이름인 지 등을 구분 짓기 위해 첫 letter가 대문자인지 소문자인지 &lsquo;-&rsquo;(hypen)의 유무 등의 feature들을 설계하고 추가함으로써 검색 기능 개선을 꾀했다.</p>
+
+<p><a href="https://www.youtube.com/watch?v=OQQ-W_63UgQ&amp;list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6&amp;index=1">강의 영상 원본</a> - Stanford CS 224n <strong>Lecture 1</strong></p>
+
+<p><a href="http://web.stanford.edu/class/cs224n/syllabus.html">강의 Lecture note</a></p>
+
 
   
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1-24" style="text-align: left;">
     
-      <a class="post-taxonomy-tag" href="https://cjyu9211.github.io/tags/intro">Intro</a>
+    <a href="https://cjyu9211.github.io/post/intro/"><i class="fa fa-chevron-left"></i></a>
     
   </div>
-  
-  
-
+  <div class="pure-u-10-24">
+    
+    <nav class="prev">
+      <a href="https://cjyu9211.github.io/post/intro/">Intro</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-2-24">
+    &nbsp;
+  </div>
+  <div class="pure-u-10-24">
+    
+  </div>
+  <div class="pure-u-1-24" style="text-align: right;">
+    
+  </div>
 </div>
 
-  </header>
 
-  <p>
-  Introduction Objectives This blog is created to record and share the editor&rsquo;s personal projects and ideas.
-The editor majors in electrical engineering at his undergraduate and studied fundamental subjects in semiconductors, signal processing, computer architecture, and integrated circuits. During his undergraduate, he conducted an independent research on deep learning also.
-He is interested in commercializing high technology both in electrical engineering and computer science. For more information about the author, please refer to About.
-  </p>
 
   
-  <footer>
-    <a href="https://cjyu9211.github.io/post/intro/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
 
-  
+(function() {
+    
+    
+    if (window.location.hostname == "localhost")
+        return;
 
-  
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'Your Disqus shortname';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
 
 </div>

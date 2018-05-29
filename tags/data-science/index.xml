@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Chan&#39;s blog</title>
-    <link>https://cjyu9211.github.io/post/</link>
-    <description>Recent content in Posts on Chan&#39;s blog</description>
+    <title>Data Science on Chan&#39;s blog</title>
+    <link>https://cjyu9211.github.io/tags/data-science/</link>
+    <description>Recent content in Data Science on Chan&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
     <lastBuildDate>Tue, 29 May 2018 12:00:33 +0900</lastBuildDate>
     
-	<atom:link href="https://cjyu9211.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://cjyu9211.github.io/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,17 +20,6 @@
       <guid>https://cjyu9211.github.io/post/224n_lecture1/</guid>
       <description>Lecture 1: NLP with DL 본 카테고리는 Stanford University School of Engineering 에서 공개한 내용인 CS224n- NLP with Deep Learning 강의를 개인 공부하고 요약한 내용이다. 원본은 본문 최하단의 링크를 참조하면 된다.
 What is Natural Language Processing (NLP)?  NLP는 1) 전산과학, 2) 인공지능, 3) 언어학이 교차하는 부분의 학문이다. NLP는 컴퓨터로 하여금 자연어를 이해하고 처리하는 능력을 배양하는 기술이다. 최근 적용된 사례로는 Apple의 Siri, Google의 Google Assistant, Facebook의 Facebook M을 예로 들 수 있다.</description>
-    </item>
-    
-    <item>
-      <title>Intro</title>
-      <link>https://cjyu9211.github.io/post/intro/</link>
-      <pubDate>Sun, 22 Apr 2018 12:00:33 +0900</pubDate>
-      
-      <guid>https://cjyu9211.github.io/post/intro/</guid>
-      <description>Introduction Objectives This blog is created to record and share the editor&amp;rsquo;s personal projects and ideas.
-The editor majors in electrical engineering at his undergraduate and studied fundamental subjects in semiconductors, signal processing, computer architecture, and integrated circuits. During his undergraduate, he conducted an independent research on deep learning also.
-He is interested in commercializing high technology both in electrical engineering and computer science. For more information about the author, please refer to About.</description>
     </item>
     
   </channel>

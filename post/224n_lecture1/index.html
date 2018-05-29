@@ -231,7 +231,7 @@
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
-    <time>29 May 2018, 12:00</time>
+    <time>01 Jan 0001, 00:00</time>
   </div>
 
   
@@ -283,7 +283,7 @@
 
 <p>일반적으로, NLP level은 다음과 같이 정의 된다.</p>
 
-<p><img src="https://cjyu9211.github.io/Users/macbookpro/Desktop/blog/draft/img_src/nlp_level.png" alt="nlp_levels" /></p>
+<p><img src="./img_src/nlp_level.png" alt="nlp_levels" /></p>
 
 <ul>
 <li>자연어의 input은 크게 음성과 텍스트 두 가지로 나뉜다. 각각의 input은 음성학/음운론 분석, 그리고 OCR/토큰화 작업을 거친다.</li>
@@ -299,6 +299,25 @@
 
 <p>예시로, 2015년 이전까지의 Google 검색 엔지니어들은 검색어(input signal)가 회사 이름인 지 등을 구분 짓기 위해 첫 letter가 대문자인지 소문자인지 &lsquo;-&rsquo;(hypen)의 유무 등의 feature들을 설계하고 추가함으로써 검색 기능 개선을 꾀했다.</p>
 
+<h4 id="why-nlp-is-difficult-real-newspaper-headlines-tweets">Why NLP is difficult: Real newspaper headlines/tweets</h4>
+
+<p>NLP가 어려운 가장 큰 이유는 자연어의 상황/세계관/문맥 등이 반영된 복잡성 때문이다. 이러한 특성 때문에 자연어는 프로그래밍 언어나 다른 formal language와는 다르게 의미가 한 개 이상일 수 있다. 다음과 같은 news headline을 예시로 들 수 있다.</p>
+
+<ol>
+<li>The Pope&rsquo;s <strong>baby steps</strong> on gays : &lsquo;gay에 대한 교황의 첫 걸음&rsquo;, baby와 steps의 품사를 명확히 하지 않으면 완전 다른 의미가 될 수 있다.</li>
+<li>Boy <strong>paralyzed</strong> after tumor fights back to gain black belt : paralyzed가 main verb가 될수도 passive participle이 될 수도 있다.</li>
+<li>Enraged cow injures farmer with axe</li>
+<li>Juvenile Court to Try Shooting Defendant</li>
+</ol>
+
+<h4 id="representations-of-nlp-levels-morphology">Representations of NLP Levels: Morphology</h4>
+
+<p>NLP에서는 단어(words)의 형태론을 표현하는 방법 중 하나로 vector를 활용한다. 전통적으로는 형태소(morphemes)로 표현했는데, (e.g. prefix, stem, suffix&hellip;) DL에서는 모든 형태소를 vector로 표현하고 words를 각 형태소 vector를 합치는 식으로 표현한다.</p>
+
+<p><img src="./img_src/morpheme_vec.png" alt="morpheme_vec" /></p>
+
+<p>vector representation은 이후 강의에서 보다 자세하게 다룰 예정이다.</p>
+
 <p><a href="https://www.youtube.com/watch?v=OQQ-W_63UgQ&amp;list=PL3FW7Lu3i5Jsnh1rnUwq_TcylNr7EkRe6&amp;index=1">강의 영상 원본</a> - Stanford CS 224n <strong>Lecture 1</strong></p>
 
 <p><a href="http://web.stanford.edu/class/cs224n/syllabus.html">강의 Lecture note</a></p>
@@ -308,14 +327,8 @@
 <div class="prev-next-post pure-g">
   <div class="pure-u-1-24" style="text-align: left;">
     
-    <a href="https://cjyu9211.github.io/post/intro/"><i class="fa fa-chevron-left"></i></a>
-    
   </div>
   <div class="pure-u-10-24">
-    
-    <nav class="prev">
-      <a href="https://cjyu9211.github.io/post/intro/">Intro</a>
-    </nav>
     
   </div>
   <div class="pure-u-2-24">
@@ -323,8 +336,14 @@
   </div>
   <div class="pure-u-10-24">
     
+    <nav class="next">
+      <a href="https://cjyu9211.github.io/post/intro/">Intro</a>
+    </nav>
+    
   </div>
   <div class="pure-u-1-24" style="text-align: right;">
+    
+    <a href="https://cjyu9211.github.io/post/intro/"><i class="fa fa-chevron-right"></i></a>
     
   </div>
 </div>

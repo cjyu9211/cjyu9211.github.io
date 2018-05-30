@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://cjyu9211.github.io/post/google_recruit/</loc>
+    <lastmod>2018-05-30T13:00:33+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cjyu9211.github.io/post/224n_lecture1/</loc>
     <lastmod>2018-05-28T12:00:33+09:00</lastmod>
   </url>
@@ -24,7 +29,7 @@
   
   <url>
     <loc>https://cjyu9211.github.io/</loc>
-    <lastmod>2018-05-28T12:00:33+09:00</lastmod>
+    <lastmod>2018-05-30T13:00:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -37,6 +42,12 @@
   <url>
     <loc>https://cjyu9211.github.io/tags/data-science/</loc>
     <lastmod>2018-05-28T12:00:33+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cjyu9211.github.io/tags/google/</loc>
+    <lastmod>2018-05-30T13:00:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -59,8 +70,14 @@
   </url>
   
   <url>
+    <loc>https://cjyu9211.github.io/tags/pm/</loc>
+    <lastmod>2018-05-30T13:00:33+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://cjyu9211.github.io/post/</loc>
-    <lastmod>2018-05-28T12:00:33+09:00</lastmod>
+    <lastmod>2018-05-30T13:00:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -73,6 +90,12 @@
   <url>
     <loc>https://cjyu9211.github.io/topics/</loc>
     <lastmod>2018-05-28T12:00:33+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cjyu9211.github.io/topics/%EC%9E%A1%EC%83%9D%EA%B0%81/</loc>
+    <lastmod>2018-05-30T13:00:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   

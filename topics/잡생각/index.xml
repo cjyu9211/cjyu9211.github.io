@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>잡생각 on Chan&#39;s blog</title>
+    <link>https://cjyu9211.github.io/topics/%EC%9E%A1%EC%83%9D%EA%B0%81/</link>
+    <description>Recent content in 잡생각 on Chan&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016. All rights reserved.</copyright>
+    <lastBuildDate>Wed, 30 May 2018 13:00:33 +0900</lastBuildDate>
+    
+	<atom:link href="https://cjyu9211.github.io/topics/%EC%9E%A1%EC%83%9D%EA%B0%81/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>구글코리아 Cloud IoT PM 리크루팅</title>
+      <link>https://cjyu9211.github.io/post/google_recruit/</link>
+      <pubDate>Wed, 30 May 2018 13:00:33 +0900</pubDate>
+      
+      <guid>https://cjyu9211.github.io/post/google_recruit/</guid>
+      <description>구글코리아 Cloud IoT PM recruit 약 2년 전부터 Intel, Nvidia, Google, FB 등 Tech 회사들의 커리어 사이트에서 alerts를 받고 있다. Engineering 팀 혹은 Product 팀의 공고를 위주로 알림을 받고 있는데, Engineering 혹은 Research 팀의 Job Description(JD)를 통해서는 장기적으로 이 회사가 어떤 기술에 관심을 갖고 있는 지, Product 팀의 JD를 통해서는 단기적으로 이 회사가 현재 보유한 기술 혹은 인력을 통해 어떤 사업을 기획하고 있는 지 간접적으로 확인할 수 있다. 이러한 정보들은 국내 언론 매체를 통해 획득하기 힘들다.</description>
+    </item>
+    
+  </channel>
+</rss>

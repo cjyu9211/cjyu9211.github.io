@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tech/Business News on Chan&#39;s blog</title>
+    <link>https://cjyu9211.github.io/topics/tech/business-news/</link>
+    <description>Recent content in Tech/Business News on Chan&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016. All rights reserved.</copyright>
+    <lastBuildDate>Mon, 04 Jun 2018 15:31:33 +0900</lastBuildDate>
+    
+	<atom:link href="https://cjyu9211.github.io/topics/tech/business-news/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Facebook is killing &#39;trending topics&#39;</title>
+      <link>https://cjyu9211.github.io/post/biz_news_180604/</link>
+      <pubDate>Mon, 04 Jun 2018 15:31:33 +0900</pubDate>
+      
+      <guid>https://cjyu9211.github.io/post/biz_news_180604/</guid>
+      <description>Facebook is killing trending topics  본 내용은 wired의 기사 내용을 번역, 요약한 내용임을 미리 밝힙니다. (06.01.18 자 기사); 링크는 본 문서 최하단에 있습니다.  지난 금요일에 올라온 포스트에 따르면, Facebook이 Trending Topics라는 기능을 제거하고 있다고 한다. Trending Topics는 화면의 우측에 있으며, 사용자들이 활발히 토론중인 주제를 보여주는 기능이다. 이 기능은 Facebook Trends API를 포함한 모든 서비스가 다음 주부터 공식적으로 폐기될 예정이다.
+Facebook new products의 헤드인 Alex Hardiman은 해당 기능이 예상보다 많이 이용되고 있지 않기에 폐기할 예정이라고 전했다.</description>
+    </item>
+    
+  </channel>
+</rss>

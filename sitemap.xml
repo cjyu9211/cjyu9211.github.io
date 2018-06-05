@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://cjyu9211.github.io/post/biz_news_180604/</loc>
+    <lastmod>2018-06-04T15:31:33+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cjyu9211.github.io/post/google_recruit/</loc>
     <lastmod>2018-05-30T13:00:33+09:00</lastmod>
   </url>
@@ -28,8 +33,14 @@
   </url>
   
   <url>
+    <loc>https://cjyu9211.github.io/tags/business/</loc>
+    <lastmod>2018-06-04T15:31:33+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://cjyu9211.github.io/</loc>
-    <lastmod>2018-05-30T13:00:33+09:00</lastmod>
+    <lastmod>2018-06-04T15:31:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -77,19 +88,37 @@
   
   <url>
     <loc>https://cjyu9211.github.io/post/</loc>
-    <lastmod>2018-05-30T13:00:33+09:00</lastmod>
+    <lastmod>2018-06-04T15:31:33+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cjyu9211.github.io/tags/product/</loc>
+    <lastmod>2018-06-04T15:31:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://cjyu9211.github.io/tags/</loc>
-    <lastmod>2018-05-28T12:00:33+09:00</lastmod>
+    <lastmod>2018-06-04T15:31:33+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cjyu9211.github.io/topics/tech/business-news/</loc>
+    <lastmod>2018-06-04T15:31:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://cjyu9211.github.io/topics/</loc>
     <lastmod>2018-05-28T12:00:33+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cjyu9211.github.io/tags/wired/</loc>
+    <lastmod>2018-06-04T15:31:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   

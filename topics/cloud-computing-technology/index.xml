@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cloud Computing Technology on Chan&#39;s blog</title>
+    <link>https://cjyu9211.github.io/topics/cloud-computing-technology/</link>
+    <description>Recent content in Cloud Computing Technology on Chan&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016. All rights reserved.</copyright>
+    <lastBuildDate>Sat, 02 Feb 2019 12:00:33 +0900</lastBuildDate>
+    
+	<atom:link href="https://cjyu9211.github.io/topics/cloud-computing-technology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introduction: A View of Cloud Computing</title>
+      <link>https://cjyu9211.github.io/post/cloud_1/</link>
+      <pubDate>Sat, 02 Feb 2019 12:00:33 +0900</pubDate>
+      
+      <guid>https://cjyu9211.github.io/post/cloud_1/</guid>
+      <description>Introduction: A View of Cloud Computing 본 포스팅은 Stanford의 CS/EE 교수인 Christos Kozyrakis가 2018년 가을에 진행한 강의 CS349D: Cloud Computing Technology 강의노트 자료를 공부하고 요약한 내용이다. 강의 노트 원본 링크는 본문 최하단에 링크로 걸어두었다.
+Cloud Computing의 정의 클라우드 컴퓨팅의 정의를 &amp;lsquo;대용량의 데이터 센터를 통한 컴퓨팅&amp;rsquo;으로 오해하는 경우가 많다. 하지만, 이는 엄밀한 클라우드 컴퓨팅의 정의가 아니며, &amp;lsquo;computing as a utility&amp;rsquo;, 즉 필요할 때마다 제 3자 혹은 내부 조직으로부터 빌려 쓰는 컴퓨팅 방식이라는 의미가 클라우드 컴퓨팅의 정의이다.</description>
+    </item>
+    
+  </channel>
+</rss>

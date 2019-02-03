@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://cjyu9211.github.io/post/cloud_1/</loc>
+    <lastmod>2019-02-02T12:00:33+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cjyu9211.github.io/post/biz_news_180606/</loc>
     <lastmod>2018-06-06T13:31:33+09:00</lastmod>
   </url>
@@ -38,10 +43,6 @@
   </url>
   
   <url>
-    <loc>https://cjyu9211.github.io/post/cloud_1/</loc>
-  </url>
-  
-  <url>
     <loc>https://cjyu9211.github.io/tags/business/</loc>
     <lastmod>2018-06-06T13:31:33+09:00</lastmod>
     <priority>0</priority>
@@ -49,13 +50,31 @@
   
   <url>
     <loc>https://cjyu9211.github.io/</loc>
-    <lastmod>2018-06-06T13:31:33+09:00</lastmod>
+    <lastmod>2019-02-02T12:00:33+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cjyu9211.github.io/tags/cloud-computing/</loc>
+    <lastmod>2019-02-02T12:00:33+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cjyu9211.github.io/topics/cloud-computing-technology/</loc>
+    <lastmod>2019-02-02T12:00:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://cjyu9211.github.io/tags/cs-224n/</loc>
     <lastmod>2018-05-28T12:00:33+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cjyu9211.github.io/tags/cs349d/</loc>
+    <lastmod>2019-02-02T12:00:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -97,7 +116,7 @@
   
   <url>
     <loc>https://cjyu9211.github.io/post/</loc>
-    <lastmod>2018-06-06T13:31:33+09:00</lastmod>
+    <lastmod>2019-02-02T12:00:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -121,7 +140,7 @@
   
   <url>
     <loc>https://cjyu9211.github.io/topics/</loc>
-    <lastmod>2018-05-28T12:00:33+09:00</lastmod>
+    <lastmod>2019-02-02T12:00:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
